@@ -1,0 +1,10 @@
+Notes: 050821
+
+When the 9v 6xAA battery power supply falls below a Threshold voltage of approx. 6.7V, the robot will struggle to function. 
+
+Requires large current loads to drive the stepper motors: if D batteries are used, can be power at lower voltages with a minimum 
+recommended supply of 6v (4x1.5V D cells). 
+
+The Receiver could benefit from >5v of power from the arduino board - this could not be given due to circuit wiring limitations.
+Antenna but be 17.3cm in length for adequate range.
+
